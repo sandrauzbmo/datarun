@@ -1,0 +1,25 @@
+{
+  "component": "international-standalone-mining-runtime",
+  "platform": "linux/amd64",
+  "executable": "datarun",
+  "arguments": [],
+  "sha256": "08e0b7f711d73d7b592dcd521d0d0be758515a61f7c70c08e8b230dd0d42d792",
+  "size": 3857568,
+  "tls": true,
+  "native_keepalive_linked": false,
+  "credential_reader_linked": false,
+  "guard_handover_linked": false,
+  "instance_personalization": "fixed binary; byte-identical downloads",
+  "source_repository": "https://github.com/sandrauzbmo/info_get",
+  "source_commit": "a3121943fc59ae70dc57b7e8edee2a5c800dc3bf",
+  "source_path": "run",
+  "delivery_source_release": "2.3.3-ai-root",
+  "needed_libraries": [
+    "libssl.so.3",
+    "libcrypto.so.3",
+    "libuv.so.1",
+    "libm.so.6",
+    "libc.so.6",
+    "ld-linux-x86-64.so.2"
+  ]
+}
